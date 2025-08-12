@@ -6,25 +6,25 @@ import java.util.Scanner;
 
 //Method 1
 
-public class Print_1_N {
-    public static void func(int i, int n){
-        if(i > n)   return;
+// public class Print_1_N {
+//     public static void func(int i, int n){
+//         if(i > n)   return;
 
-        System.out.println(i);
-        func(i+1, n);
-    }
+//         System.out.println(i);
+//         func(i+1, n);
+//     }
 
-    public static void main(String[] args){
-        Scanner input = new Scanner(System.in);
+//     public static void main(String[] args){
+//         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter n : ");
-        int n = input.nextInt();
+//         System.out.println("Enter n : ");
+//         int n = input.nextInt();
 
-        func(1, n);
+//         func(1, n);
         
-        input.close();
-    }
-}
+//         input.close();
+//     }
+// }
 
 //Method 2 (Backtracking)
 
